@@ -8,8 +8,53 @@
       <title>vs-omikuji</title>
 </head>
 <body>
-      <div id="btn">対決</div>
-      <div id="result"></div>
+      <div class="score_boared">
+            <table border="5">
+                  <tr>
+                        <th>チーム</th>
+                        <th>1</th>
+                        <th>2</th>
+                        <th>3</th>
+                        <th>4</th>
+                        <th>5</th>
+                        <th>6</th>
+                        <th>7</th>
+                        <th>8</th>
+                        <th>9</th>
+                  </tr>
+                  <tr>
+                        <td>YOU</td>
+                        <td id="1_inning"></td>
+                        <td id="2_inning"></td>
+                        <td id="3_inning"></td>
+                        <td id="4_inning"></td>
+                        <td id="5_inning"></td>
+                        <td id="6_inning"></td>
+                        <td id="7_inning"></td>
+                        <td id="8_inning"></td>
+                        <td id="9_inning"></td>
+                  </tr>
+                  <tr>
+                        <td>CPU</td>
+                        <td id="1_inning_r"></td>
+                        <td id="2_inning_r"></td>
+                        <td id="3_inning_r"></td>
+                        <td id="4_inning_r"></td>
+                        <td id="5_inning_r"></td>
+                        <td id="6_inning_r"></td>
+                        <td id="7_inning_r"></td>
+                        <td id="8_inning_r"></td>
+                        <td id="9_inning_r"></td>
+                  </tr>
+            </table>
+      </div>
+      <div id="btn">Play Ball</div>
+      <div id="win_or_lose"></div>
+      <div id="result">
+            <div id="my_result"></div>
+            <div id="var"></div>
+            <div id="cpu_result"></div>
+      </div>
       <script src=main.js></script>
 </body>
 </html>

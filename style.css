@@ -1,10 +1,16 @@
+.score_boared {
+      width: 300px;
+      height: 200px;
+      margin: 0 auto;
+}
+
 body {
       background-color: rgb(213, 223, 223);
 }
 
 #btn {
       width: 300px;
-      height: 150px;
+      height: 80px;
       border: 3px solid black;
       background-color: azure;
       text-align: center;
@@ -29,4 +35,31 @@ body {
       height: 1000px;
       margin: 0 auto;
       text-align: center;
+}
+
+#win_or_lose {
+      font-size: 50px;
+      font-family: 'Courier New', Courier, monospace;
+      width: 300px;
+      height: 100px;
+      text-align: center;
+      margin: 0 auto;
+}
+#result {
+      display: flex;
+}
+#my_result {
+      font-size: 50px;
+      width: 100px;
+      height: 100px;
+}
+#var {
+      font-size: 50px;
+      width: 100px;
+      height: 100px;
+}
+#cpu_result {
+      font-size: 50px;
+      width: 100px;
+      height: 100px;
 }
